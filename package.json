@@ -1,0 +1,18 @@
+{
+  "name": "faculty-xss-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Authorized XSS security-QA suite for the Faculty Application form (Playwright).",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:form": "playwright test tests/01-form-xss.spec.js",
+    "test:dom": "playwright test tests/02-dom-xss.spec.js",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "dotenv": "^16.4.5"
+  }
+}
