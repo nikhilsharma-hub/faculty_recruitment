@@ -66,31 +66,46 @@ test.describe('03 — All-sections XSS (stored + reflected)', () => {
 
         // ---- Field is injectable (or full battery forced): run the battery ----
         console.log(`[INJECTABLE] field="${field.name}" contexts=${probe.contexts.join('|')} — running ${payloads.length} payloads`);
+
+        // Phase 1 — fast scan: POST each payload + GET the rendered page (no reload).
+        // Raw reflection (payload survives unescaped) is itself the stored-XSS signal.
+        const rawHits = [];
+        await H.fillFormBaseline(page, fi);
         for (const payload of payloads) {
-          await H.fillFormBaseline(page, fi);
           await H.setFormField(page, fi, field.domIndex, payload.value);
           await H.postSave(page, fi, section.endpoint);
           const html = await H.fetchRendered(page, appUrl);
-
           const rawReflected = html.includes(payload.value);
           const scan = H.scanToken(html, payload.token, null);
           const context = scan.contexts[0] || (rawReflected ? 'raw' : '');
-          let executed = false;
-
-          // Confirm execution for unescaped reflections in executable contexts.
-          if (rawReflected || (scan.reflected && ['tag', 'attribute', 'js-block', 'html-body'].includes(context))) {
-            await page.goto(appUrl, { waitUntil: 'domcontentloaded' }).catch(() => {});
-            await page.waitForTimeout(400);
-            const hits = await H.readHits(page);
-            executed = hits.some(m => m && m.includes(payload.token));
-          }
-
-          if (executed || rawReflected) {
-            console.log(`  [HIT] ${field.name} ${payload.id}/${payload.name} executed=${executed} rawReflected=${rawReflected} ctx=${context}`);
-            findings.push({ field: field.name, kind: field.kind, verdict: executed ? 'EXECUTED' : 'raw-reflected',
+          if (rawReflected) {
+            rawHits.push({ payload, context });
+            findings.push({ field: field.name, kind: field.kind, verdict: 'raw-reflected',
               payload: `${payload.id}:${payload.name}`, context });
           }
         }
+
+        // Phase 2 — confirm EXECUTION with one real browser render per distinct
+        // executable context (bounded to <=4 reloads per field, not one per payload).
+        const EXEC_CTX = ['tag', 'attribute', 'js-block', 'html-body'];
+        const confirmed = new Set();
+        for (const hit of rawHits) {
+          if (!EXEC_CTX.includes(hit.context) || confirmed.has(hit.context)) continue;
+          confirmed.add(hit.context);
+          await H.fillFormBaseline(page, fi);
+          await H.setFormField(page, fi, field.domIndex, hit.payload.value);
+          await H.postSave(page, fi, section.endpoint);
+          await page.goto(appUrl, { waitUntil: 'domcontentloaded' }).catch(() => {});
+          await page.waitForTimeout(400);
+          const hits = await H.readHits(page);
+          if (hits.some(m => m && m.includes(hit.payload.token))) {
+            console.log(`  [EXEC-CONFIRMED] ${field.name} ${hit.payload.id}/${hit.payload.name} ctx=${hit.context}`);
+            findings.push({ field: field.name, kind: field.kind, verdict: 'EXECUTED',
+              payload: `${hit.payload.id}:${hit.payload.name}`, context: hit.context });
+          }
+        }
+        console.log(`  field="${field.name}": raw-reflected=${rawHits.length}/${payloads.length}, confirmed-exec contexts=[${[...confirmed].join('|')}]`);
+
         // Restore the field to a benign value so the application isn't left full of markup.
         await H.fillFormBaseline(page, fi);
         await H.setFormField(page, fi, field.domIndex, H.benignValue(field.kind));
