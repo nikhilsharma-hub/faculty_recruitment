@@ -1,0 +1,13 @@
+{
+  "section": "Employment — PhD details",
+  "form": "tab2_data",
+  "endpoint": "ajaxSaveTab2.php",
+  "appUrl": "http://10.0.62.109:8081/faculty/facultyapply/49184",
+  "fieldCount": 6,
+  "counts": {
+    "executed": 0,
+    "rawReflected": 0,
+    "encoded": 0
+  },
+  "findings": []
+}

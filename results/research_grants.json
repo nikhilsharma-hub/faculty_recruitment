@@ -1,0 +1,21 @@
+{
+  "section": "Research Grants",
+  "form": "research_grants",
+  "endpoint": "ajaxSaveResearchGrants.php",
+  "appUrl": "http://10.0.62.109:8081/faculty/facultyapply/49184",
+  "fieldCount": 3,
+  "counts": {
+    "executed": 0,
+    "rawReflected": 1,
+    "encoded": 0
+  },
+  "findings": [
+    {
+      "field": "Rsanction_text",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    }
+  ]
+}

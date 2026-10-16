@@ -29,7 +29,7 @@ test.describe('01 — Form XSS (reflected + stored)', () => {
 
     for (const field of fields) {
       for (const payload of payloads) {
-        await H.openForm(page);            // fresh form each case (already logged in)
+        await H.openForm(page);            // reopen the same existing application
         await H.fillBaseline(page);
         await H.injectIntoField(page, field.index, payload);
         await H.submitForm(page);

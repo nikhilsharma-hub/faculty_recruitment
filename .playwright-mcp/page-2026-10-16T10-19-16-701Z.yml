@@ -1,0 +1,24 @@
+- generic [ref=e2]:
+  - heading [level=1] [ref=e4]:
+    - strong [ref=e5]: Faculty Recruitment Portal
+    - strong [ref=e7]: IIT Gandhinagar
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - generic [ref=e13]: ✉
+      - textbox "Required" [active] [invalid] [ref=e31]:
+        - /placeholder: Email
+        - text: "'"
+      - generic [ref=e32]: Required
+    - generic [ref=e18]:
+      - generic [ref=e19]: "*"
+      - textbox "Password" [ref=e21]: invalid-password
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - checkbox [ref=e24]
+        - text: Remember Me
+      - button "Login" [ref=e26] [cursor=pointer]
+    - generic [ref=e28]:
+      - link "Forgot password?" [ref=e29] [cursor=pointer]:
+        - /url: forgotpassword.php
+      - link "Create a new account" [ref=e30] [cursor=pointer]:
+        - /url: register.php

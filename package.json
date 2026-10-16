@@ -5,10 +5,12 @@
   "description": "Authorized XSS security-QA suite for the Faculty Application form (Playwright).",
   "scripts": {
     "setup": "npm install && npx playwright install chromium",
-    "test": "playwright test",
+    "test": "playwright test tests/01-form-xss.spec.js tests/02-dom-xss.spec.js",
+    "test:all": "playwright test tests/03-all-sections-xss.spec.js",
     "test:headed": "playwright test --headed",
     "test:form": "playwright test tests/01-form-xss.spec.js",
     "test:dom": "playwright test tests/02-dom-xss.spec.js",
+    "test:sqli": "playwright test tests/04-sqli.spec.js",
     "report": "playwright show-report"
   },
   "devDependencies": {

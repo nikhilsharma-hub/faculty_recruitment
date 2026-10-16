@@ -18,6 +18,8 @@
  * It never POSTs the final-submit endpoint, so the application is not locked.
  */
 const { test, expect } = require('@playwright/test');
+const fs = require('fs');
+const path = require('path');
 const CONFIG = require('../lib/config');
 const { makePayloads } = require('../lib/payloads');
 const H = require('../lib/helpers');
@@ -26,14 +28,22 @@ const RAW_PROBE = `<>"'`;
 let rnd = 0;
 const nextCanary = () => { rnd++; return `QZC${Date.now().toString(36)}${rnd}`; };
 
+// Per-section results are written here so a parallel (multi-worker) run — where each
+// worker has its own module state — can be aggregated into one report afterwards.
+const RESULTS_DIR = path.join(process.cwd(), 'results');
+try { fs.mkdirSync(RESULTS_DIR, { recursive: true }); } catch {}
+
 const sections = CONFIG.sections.filter(s =>
   !CONFIG.sectionFilter || s.label.toLowerCase().includes(CONFIG.sectionFilter.toLowerCase()));
 
 const allFindings = [];
 
 test.describe('03 — All-sections XSS (stored + reflected)', () => {
+  // Sections reuse the existing application selected from Manage Application.
+  test.describe.configure({ mode: 'parallel' });
+
   for (const section of sections) {
-    test(`${section.label} [${section.form}]`, async ({ page }) => {
+    test(`${section.label} [${section.form}]`, async ({ page, context }) => {
       test.setTimeout(90 * 60 * 1000);
       await H.installOracle(page);
       await H.loginAndOpenForm(page);
@@ -46,9 +56,23 @@ test.describe('03 — All-sections XSS (stored + reflected)', () => {
       console.log(`\n=== ${section.label} (form=${section.form} endpoint=${section.endpoint}) ===`);
       console.log(`Injectable fields (${fields.length}): ${fields.map(f => `${f.name}:${f.kind}`).join(', ')}`);
 
+      // Dedicated page for execution confirmation. Reloading the (corrupted-by-markup)
+      // app happens HERE, so the main `page` DOM stays fully rendered for every field.
+      const confirmPage = await context.newPage();
+      await H.installOracle(confirmPage);
+
+      // Restore a field to a benign value and persist it, so stored markup never
+      // accumulates and breaks the rendered form for later fields/confirmations.
+      const restore = async () => {
+        await H.fillFormBaseline(page, fi);
+        await H.setFormField(page, fi, field.domIndex, H.benignValue(field.kind));
+        await H.postSave(page, fi, section.endpoint);
+      };
+      var field; // referenced by restore()
+
       const findings = [];
 
-      for (const field of fields) {
+      for (field of fields) {
         // ---- Canary probe: is this field output-encoded or injectable? ----
         await H.fillFormBaseline(page, fi);
         const canary = nextCanary();
@@ -57,10 +81,11 @@ test.describe('03 — All-sections XSS (stored + reflected)', () => {
         const probeHtml = await H.fetchRendered(page, appUrl);
         const probe = H.scanToken(probeHtml, canary, RAW_PROBE);
 
-        if (!probe.reflected) { continue; }               // not shown on this surface → nothing to report here
+        if (!probe.reflected) { await restore(); continue; }   // not shown on this surface
         if (!probe.raw && !CONFIG.fullBattery) {
-          // Reflected but safely output-encoded. Record as safe-reflected, move on.
+          // Reflected but safely output-encoded.
           findings.push({ field: field.name, kind: field.kind, verdict: 'encoded', contexts: probe.contexts.join('|') });
+          await restore();
           continue;
         }
 
@@ -85,32 +110,36 @@ test.describe('03 — All-sections XSS (stored + reflected)', () => {
           }
         }
 
-        // Phase 2 — confirm EXECUTION with one real browser render per distinct
-        // executable context (bounded to <=4 reloads per field, not one per payload).
-        const EXEC_CTX = ['tag', 'attribute', 'js-block', 'html-body'];
-        const confirmed = new Set();
-        for (const hit of rawHits) {
-          if (!EXEC_CTX.includes(hit.context) || confirmed.has(hit.context)) continue;
-          confirmed.add(hit.context);
+        // Phase 2 — confirm EXECUTION with a real render (on confirmPage, so the main
+        // page DOM never reloads). Prioritise payloads that auto-fire without interaction
+        // (incl. textarea/attribute breakouts), capped per field. One confirmed hit is
+        // enough to mark the field vulnerable, but we record every one we catch.
+        const EXEC_PRIORITY = ['img-onerror', 'img-onerror-quoted', 'svg-onload', 'svg-onload-slash',
+          'attr-dq-img', 'attr-sq-svg', 'attr-dq-script', 'break-textarea', 'body-onload',
+          'input-autofocus', 'details-ontoggle', 'video-source', 'audio-onerror', 'polyglot-short'];
+        const rawByName = new Map();
+        for (const h of rawHits) if (!rawByName.has(h.payload.name)) rawByName.set(h.payload.name, h);
+        const toConfirm = EXEC_PRIORITY.map(n => rawByName.get(n)).filter(Boolean).slice(0, 8);
+        let anyExec = false;
+        for (const hit of toConfirm) {
           await H.fillFormBaseline(page, fi);
           await H.setFormField(page, fi, field.domIndex, hit.payload.value);
           await H.postSave(page, fi, section.endpoint);
-          await page.goto(appUrl, { waitUntil: 'domcontentloaded' }).catch(() => {});
-          await page.waitForTimeout(400);
-          const hits = await H.readHits(page);
+          await confirmPage.goto(appUrl, { waitUntil: 'domcontentloaded' }).catch(() => {});
+          await confirmPage.waitForTimeout(600);
+          const hits = await H.readHits(confirmPage);
           if (hits.some(m => m && m.includes(hit.payload.token))) {
+            anyExec = true;
             console.log(`  [EXEC-CONFIRMED] ${field.name} ${hit.payload.id}/${hit.payload.name} ctx=${hit.context}`);
             findings.push({ field: field.name, kind: field.kind, verdict: 'EXECUTED',
               payload: `${hit.payload.id}:${hit.payload.name}`, context: hit.context });
+            break; // one confirmed execution is enough to flag the field
           }
         }
-        console.log(`  field="${field.name}": raw-reflected=${rawHits.length}/${payloads.length}, confirmed-exec contexts=[${[...confirmed].join('|')}]`);
-
-        // Restore the field to a benign value so the application isn't left full of markup.
-        await H.fillFormBaseline(page, fi);
-        await H.setFormField(page, fi, field.domIndex, H.benignValue(field.kind));
-        await H.postSave(page, fi, section.endpoint);
+        console.log(`  field="${field.name}": raw-reflected=${rawHits.length}/${payloads.length}, exec-confirmed=${anyExec}`);
+        await restore();
       }
+      await confirmPage.close().catch(() => {});
 
       // ---- Section summary ----
       const executed = findings.filter(f => f.verdict === 'EXECUTED');
@@ -120,6 +149,17 @@ test.describe('03 — All-sections XSS (stored + reflected)', () => {
       if (executed.length) console.table(executed);
       if (rawRef.length)   console.table(rawRef);
       allFindings.push({ section: section.label, findings });
+
+      // Persist this section's results (for cross-worker aggregation / reporting).
+      try {
+        const safe = section.form.replace(/[^a-z0-9_]/gi, '_');
+        fs.writeFileSync(path.join(RESULTS_DIR, `${safe}.json`), JSON.stringify({
+          section: section.label, form: section.form, endpoint: section.endpoint, appUrl,
+          fieldCount: fields.length,
+          counts: { executed: executed.length, rawReflected: rawRef.length, encoded: encoded.length },
+          findings,
+        }, null, 2));
+      } catch (e) { console.log('[warn] could not write results file: ' + e.message); }
 
       // Gate: any confirmed execution fails the section.
       expect(executed, `Confirmed XSS execution in "${section.label}"`).toHaveLength(0);

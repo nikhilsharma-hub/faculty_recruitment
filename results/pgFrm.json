@@ -1,0 +1,140 @@
+{
+  "section": "Teaching & Mentoring",
+  "form": "pgFrm",
+  "endpoint": "ajaxpostgraduate.php",
+  "appUrl": "http://10.0.62.109:8081/faculty/facultyapply/49184",
+  "fieldCount": 4,
+  "counts": {
+    "executed": 1,
+    "rawReflected": 17,
+    "encoded": 0
+  },
+  "findings": [
+    {
+      "field": "student1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "student1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "student1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "student1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "student1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "student1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "student1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "student1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "student1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "student1",
+      "kind": "text",
+      "verdict": "EXECUTED",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "doctorate1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "doctorate1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "doctorate1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "doctorate1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "doctorate1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doctorate1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doctorate1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doctorate1",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    }
+  ]
+}

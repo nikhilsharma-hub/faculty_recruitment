@@ -1,0 +1,8099 @@
+{
+  "section": "Biographical Details",
+  "form": "biographdata1",
+  "endpoint": "ajaxSaveTab1.php",
+  "appUrl": "http://10.0.62.109:8081/faculty/facultyapply/49184",
+  "fieldCount": 28,
+  "counts": {
+    "executed": 15,
+    "rawReflected": 1140,
+    "encoded": 0
+  },
+  "findings": [
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "firstname",
+      "kind": "text",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "middlename",
+      "kind": "text",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "lastname",
+      "kind": "text",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "aemail",
+      "kind": "email",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "conno",
+      "kind": "text",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "aconno",
+      "kind": "text",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "mail_add",
+      "kind": "textarea",
+      "verdict": "EXECUTED",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "mail_per",
+      "kind": "textarea",
+      "verdict": "EXECUTED",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "discipline",
+      "kind": "select",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "sdiscipline",
+      "kind": "select",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "secdecip",
+      "kind": "textarea",
+      "verdict": "EXECUTED",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "c_a[]",
+      "kind": "select",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "attribute"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "c_r[]",
+      "kind": "text",
+      "verdict": "EXECUTED",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    }
+  ]
+}

@@ -1,0 +1,2170 @@
+{
+  "section": "Publications — DOI Conference",
+  "form": "doi_conference",
+  "endpoint": "ajaxSaveDOIConference.php",
+  "appUrl": "http://10.0.62.109:8081/faculty/facultyapply/49184",
+  "fieldCount": 7,
+  "counts": {
+    "executed": 4,
+    "rawReflected": 304,
+    "encoded": 0
+  },
+  "findings": [
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_url1",
+      "kind": "textarea",
+      "verdict": "EXECUTED",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "doi_confpub_title1",
+      "kind": "textarea",
+      "verdict": "EXECUTED",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_authors1",
+      "kind": "textarea",
+      "verdict": "EXECUTED",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P01:script-basic",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P02:script-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P03:script-spaced",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P04:script-slash-src",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P05:script-unicode-esc",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P06:script-nested",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P07:img-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P08:img-onerror-quoted",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P09:img-slash-sep",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P10:img-backtick",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P11:img-entity-fn",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P12:img-srcset",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P13:svg-onload",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P14:svg-onload-slash",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P15:svg-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P16:svg-animate",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P17:svg-set",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P18:svg-foreignobject",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P19:body-onload",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P20:body-onpageshow",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P21:html-onmouseover",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P22:input-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P23:select-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P24:textarea-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P25:keygen-autofocus",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P26:video-source",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P27:audio-onerror",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P28:video-onloadstart",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P29:details-ontoggle",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P30:marquee-onstart",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P31:style-animation",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P32:object-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P33:embed-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P34:iframe-js",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P35:iframe-srcdoc",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P36:button-formaction",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P37:mxss-mglyph",
+      "context": "html-comment"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P38:noscript-mxss",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P39:attr-dq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P40:attr-sq-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P41:attr-dq-img",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P42:attr-sq-svg",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P43:attr-dq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P44:attr-sq-focus",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P45:attr-onmouseover",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P46:attr-svg-slash",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P48:break-title",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P49:break-style",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P50:break-comment",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P51:js-sq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P52:js-dq-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P53:js-close-script",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P54:js-comment-break",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P55:js-fromcharcode",
+      "context": "raw"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P56:url-javascript",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P57:url-js-mixedcase",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P58:url-js-tab",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P59:url-data-html",
+      "context": "js-block"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P60:url-vbscript",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P61:enc-html-entity",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P62:enc-decimal",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P63:enc-hex",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P64:enc-url",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P65:enc-double-url",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P66:enc-nullbyte",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P67:obf-window-concat",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P68:obf-self-bracket",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P69:obf-top-eval",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P70:obf-href-colon",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P71:ng-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P72:ng-on-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P73:vue-c-constructor",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P74:ssti-dollar",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P75:polyglot-sobky",
+      "context": "html-body"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "raw-reflected",
+      "payload": "P76:polyglot-short",
+      "context": "tag"
+    },
+    {
+      "field": "doi_conf_name1",
+      "kind": "textarea",
+      "verdict": "EXECUTED",
+      "payload": "P47:break-textarea",
+      "context": "js-block"
+    }
+  ]
+}

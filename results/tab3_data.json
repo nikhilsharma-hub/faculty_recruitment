@@ -1,0 +1,13 @@
+{
+  "section": "Employment — positions",
+  "form": "tab3_data",
+  "endpoint": "ajaxSaveemployment.php",
+  "appUrl": "http://10.0.62.109:8081/faculty/facultyapply/49184",
+  "fieldCount": 8,
+  "counts": {
+    "executed": 0,
+    "rawReflected": 0,
+    "encoded": 0
+  },
+  "findings": []
+}
